@@ -1,0 +1,9 @@
+guarda as infos no git config do sistema todo, do usuário e do projeto.
+config global é do usuário
+
+git config --global user.name "Seu nome"
+git config --global user.email "seuemail@gmail.com"
+git config --global core.editor [comando do editor]
+git config user.name (responde com o seu nome)
+git config user.email (responde com o seu nome)
+git config --list (mostra uma lista de informações do seu git)

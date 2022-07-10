@@ -1,0 +1,8 @@
+git checkout [nome do arquivo]: retorna o que o arquivo era até antes da edição
+
+quando o arquivo já está no staged
+git reset HEAD [nome do arquivo]: ele tira o arquivo do staged
+quando o arquivo já foi commitado
+git reset --soft: mata o commit, mas o arquivo fica no staged
+git reset --mixed: mata o commit, volta o arquivo para modified
+git reset --hard: ignora a existencia do commit e tudo que existe nele, mata tudo

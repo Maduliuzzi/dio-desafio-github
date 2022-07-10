@@ -1,0 +1,20 @@
+O que é um branch e pra que usar?
+Branch é um ponteiro móvel que leva a um commit.
+
+Vantagens:
+
+Poder modificar sem alterar a master
+Facilmente desligável
+Múltiplas pessoas trabalhando
+Evita conflitos
+Criando um branch
+git checkout -b [nome da branch]: cria a branch
+git branch: mostra em que branch eu tô
+Movendo e deletando branches
+git checkout [nome da branch]: muda de branch
+git branch -D [nome da branch]: apaga a branch
+
+
+Movendo e deletando branches
+git checkout [nome da branch]: muda de branch
+git branch -D [nome da branch]: apaga a branch

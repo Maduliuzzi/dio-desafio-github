@@ -1,0 +1,4 @@
+Sempre que eu for fazer o merge de uma branch na master, ele cria um commit para juntar os dois.
+Cria um ciclo.
+Merge é uma operação não destrutiva, ele cria um commit novo para juntar tudo.
+Parte ruim é que sempre cria um commit extra sem sentido e o histórico fica poluído.

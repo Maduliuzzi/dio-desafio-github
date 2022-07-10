@@ -1,0 +1,33 @@
+Abra o terminal
+Cole o texto abaixo, substituindo o seu email do Github.
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+Isso cria uma nova chave SSH, usando o email como uma label.
+
+Gerando um par de chave RSA publica/privada.
+“Enter a file in which to save the key,” aperte Enter. Isso aceita o padrão de onde fica o arquivo.
+Enter a file in which to save the key (/home/you/.ssh/id_rsa): [Press enter]
+
+Escreva uma frase de segurança. Para mais informações, veja “Working with SSH key passphrases”.
+Enter passphrase (empty for no passphrase): [Type a passphrase]
+
+Enter same passphrase again: [Type passphrase again]
+
+Adicionando sua chave SSH no ssh-agent:
+ssh-add ~/.ssh/id_rsa
+
+Para copiar MANUALMENTE sua chave SSH:
+cat ~/.ssh/id_rsa.pub
+
+OU copie o SSH para a área de tranferência utilizando o xclip, para instalá-lo e copiar execute os seguintes comandos:
+Linux	Ubuntu
+sudo apt-get install xclip
+
+Então rode:
+xclip -sel clip < ~/.ssh/id_rsa.pub
+
+Agora na sua página do GitHub vá até o menu Settings.
+Clique em “SSH and GPG keys” na lateral esquerda.
+Ou acesse diretamente este link: https://github.com/settings/keys
+Clique no botão “New SSH Key”, preencha o título à sua escolha, geralmente o nome da máquina.
+E cole o SSH que está na sua área de transferência na caixa de texte “Key”, se precisar coloque sua senha novamente.

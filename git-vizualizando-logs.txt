@@ -1,0 +1,12 @@
+git log: mostra o hash do commit, quem foi o autor dele, e a mensagem do commit
+git log --decorate: mostra mais detalhes
+git log --author="nome": filtra por autor de commit
+git shortlog: mostra em ordem alfabética todos os autores, quantos commits e quais fizeram
+git shortlog -sn: mostra só o nome e a quantidade de commits
+git log --graph: mostra de forma gráfica oq ta acontecendo com os branchs e as versões
+git show [hash]: mostra tudo que foi feito naquele commit
+
+
+Visualizando o diff
+git diff: mostra a modificação que rolou naquele commit
+git diff --name.only: mostra só o nome do arquivo que foi modificado

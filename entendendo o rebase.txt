@@ -1,0 +1,3 @@
+Não cria um ciclo, permanece tudo linear.
+Evita commits extras e mantém o histórico linear.
+O ruim é que perde a ordem cronológica. (Pega o commit e põe no início da fila, sem se preocupar se foi feito antes ou depois)

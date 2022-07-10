@@ -1,0 +1,7 @@
+mkdir git-course: para criar uma pasta
+cd git-course/: entrar na pasta
+git init: inicializa um repositório vazio
+ls -la: mostra todos os diretórios que tem no repositório
+cd .git/: entra no diretório
+ls: lista tudo que tem no diretório
+cd ..: volta 1

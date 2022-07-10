@@ -1,0 +1,10 @@
+untracked: arquivo acabou de ser adicionado, mas o git ainda não conhece dentro do repositório nenhuma versão
+adiciona arquivo no git
+unmodified: existe no git, mas não tem modificação
+modifica o arquivo
+modified: arquivo modificado
+jogar o arquivo para área onde vai ser criada a versão
+staged: fica com todos os arquivos modificados para poder commitar
+git status: reporta como o repositório esta nesse momento
+git add: tira do modified e coloca no staged
+git commit -m "mensagem": criar uma versão

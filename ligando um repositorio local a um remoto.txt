@@ -1,0 +1,10 @@
+git remote add origin [colar o ssh]
+git push -u origin master: envia os arquivos locais para o repositório remoto
+
+
+Enviando mudanças para um repositório remoto
+git push origin [branch]
+Clonando repositórios remotos
+git clone [ssh]
+Fazendo um fork de um projeto
+Fork é para projetos que não são seus, direto pelo Github.
